@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		56C2B7FF2248525800B4E48F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C2B7FE2248525800B4E48F /* AppDelegate.swift */; };
-		56C2B8012248525800B4E48F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C2B8002248525800B4E48F /* FirstViewController.swift */; };
-		56C2B8032248525800B4E48F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C2B8022248525800B4E48F /* SecondViewController.swift */; };
+		56C2B8012248525800B4E48F /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C2B8002248525800B4E48F /* FavoritesViewController.swift */; };
+		56C2B8032248525800B4E48F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C2B8022248525800B4E48F /* HomeViewController.swift */; };
 		56C2B8062248525800B4E48F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C2B8042248525800B4E48F /* Main.storyboard */; };
 		56C2B8082248525B00B4E48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C2B8072248525B00B4E48F /* Assets.xcassets */; };
 		56C2B80B2248525B00B4E48F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C2B8092248525B00B4E48F /* LaunchScreen.storyboard */; };
 		56C2B8162248525B00B4E48F /* PawsitiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C2B8152248525B00B4E48F /* PawsitiveTests.swift */; };
 		56C2B8212248525B00B4E48F /* PawsitiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C2B8202248525B00B4E48F /* PawsitiveUITests.swift */; };
+		56C2B8312248629B00B4E48F /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C2B82F2248629B00B4E48F /* AlamofireImage.framework */; };
+		56C2B8322248629B00B4E48F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C2B8302248629B00B4E48F /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* Begin PBXFileReference section */
 		56C2B7FB2248525800B4E48F /* Pawsitive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pawsitive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C2B7FE2248525800B4E48F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56C2B8002248525800B4E48F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		56C2B8022248525800B4E48F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		56C2B8002248525800B4E48F /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		56C2B8022248525800B4E48F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		56C2B8052248525800B4E48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56C2B8072248525B00B4E48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56C2B80A2248525B00B4E48F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		56C2B81C2248525B00B4E48F /* PawsitiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawsitiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C2B8202248525B00B4E48F /* PawsitiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawsitiveUITests.swift; sourceTree = "<group>"; };
 		56C2B8222248525B00B4E48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C2B82F2248629B00B4E48F /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		56C2B8302248629B00B4E48F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C2B8312248629B00B4E48F /* AlamofireImage.framework in Frameworks */,
+				56C2B8322248629B00B4E48F /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 				56C2B8142248525B00B4E48F /* PawsitiveTests */,
 				56C2B81F2248525B00B4E48F /* PawsitiveUITests */,
 				56C2B7FC2248525800B4E48F /* Products */,
+				56C2B82E2248629B00B4E48F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				56C2B7FE2248525800B4E48F /* AppDelegate.swift */,
-				56C2B8002248525800B4E48F /* FirstViewController.swift */,
-				56C2B8022248525800B4E48F /* SecondViewController.swift */,
+				56C2B8002248525800B4E48F /* FavoritesViewController.swift */,
+				56C2B8022248525800B4E48F /* HomeViewController.swift */,
 				56C2B8042248525800B4E48F /* Main.storyboard */,
 				56C2B8072248525B00B4E48F /* Assets.xcassets */,
 				56C2B8092248525B00B4E48F /* LaunchScreen.storyboard */,
@@ -128,6 +135,15 @@
 			path = PawsitiveUITests;
 			sourceTree = "<group>";
 		};
+		56C2B82E2248629B00B4E48F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56C2B8302248629B00B4E48F /* Alamofire.framework */,
+				56C2B82F2248629B00B4E48F /* AlamofireImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +154,7 @@
 				56C2B7F72248525800B4E48F /* Sources */,
 				56C2B7F82248525800B4E48F /* Frameworks */,
 				56C2B7F92248525800B4E48F /* Resources */,
+				56C2B833224862BD00B4E48F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,14 +271,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56C2B833224862BD00B4E48F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56C2B7F72248525800B4E48F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C2B8032248525800B4E48F /* SecondViewController.swift in Sources */,
+				56C2B8032248525800B4E48F /* HomeViewController.swift in Sources */,
 				56C2B7FF2248525800B4E48F /* AppDelegate.swift in Sources */,
-				56C2B8012248525800B4E48F /* FirstViewController.swift in Sources */,
+				56C2B8012248525800B4E48F /* FavoritesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +477,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6C8J36YAX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Pawsitive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,6 +499,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6C8J36YAX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Pawsitive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
